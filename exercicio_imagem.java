@@ -25,7 +25,7 @@ Scanner ler = new Scanner(System.in); // Nosso Scanner que fara a leitura do nos
 		for (i = 0; i < 16; i++) { // Nossa estrutura de repeticao para o numero de linhas da matriz
 		
 			for (j = 0; j < 16; j++) { // Nossa estrutura de repetição para numero de colunas da matriz
-				// Exibir os valores referente a coordenada da matriz
+				
 				System.out.printf("%d ", m[i][j]); // Interface que aparecera ao usuario mostrando os valores da coordenada da matriz
 			}
 			System.out.printf("\n"); //  Ira pular uma linha 
